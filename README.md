@@ -19,7 +19,7 @@ This is a "big" project to bring MacOS OSes for this Motherboard with OpenCore B
 
 Hardware | Model
 --- |:--:
-![motherboard](https://i.imgur.com/kjUKjB2.png) | Asus H81M-K (Haswell)
+![motherboard](https://i.imgur.com/IM3kGTn.png) | Asus H81M-K (Haswell)
 ![bios](https://i.imgur.com/RmYixFt.png) | Asus EZ Aptio V's v3.603/v3.802 (by American Megatrends (AMI)/Asus)
 ![processor](https://i.imgur.com/BzXF1mf.png) | Intel Core i5 (4th Gen) 4440 4 Cores/4 Threads@3,1Ghz
 ![igpu](https://i.imgur.com/pk2H9Aw.png) | Intel Graphics 4600 1GB VRAM @1200Mhz (Supported until MacOS Monterey)
