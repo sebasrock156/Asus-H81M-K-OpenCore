@@ -25,7 +25,7 @@ Hardware | Model
 ![igpu](https://i.imgur.com/pk2H9Aw.png) | Intel Graphics 4600 1GB VRAM @1200Mhz (Supported until MacOS Monterey)
 ![dgpu]() | AMD/Sapphire Radeon RX 580 Nitro+ 8GB VRAM @1500Mhz 
 ![audio](https://i.imgur.com/A7RRuUn.png) | AL887 (in-build)
-![wlan](https://i.imgur.com/9eDLwo9.png) | Ralink RT3070 (Supported until MacOS High Sierra)
+![wlan](https://i.imgur.com/9eDLwo9.png) | Mediatek Ralink RT3070 (Supported until MacOS High Sierra)
 Ethernet | Realtek RTL8111G
 ![ddr3](https://i.imgur.com/5MAnSyf.png) | Corsair Vengeance/Kingston HyperX 12GB(4+8x2) DDR3L@1600Mhz
 ![ssd](https://i.imgur.com/pozDx4X.png) | Kingston A400 SSD 960GB (QLC SM2259XT Controller)
