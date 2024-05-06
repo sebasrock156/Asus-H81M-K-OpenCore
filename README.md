@@ -1,4 +1,4 @@
-# Asus-H81M-K-OpenCore (MacOS Monterey 12.x.x)
+# Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
 
 Hardware | Model
 --- |:--:
