@@ -9,7 +9,7 @@ This is a "big" project to bring MacOS OSes for this Motherboard with OpenCore B
 
 **More info of MacOS Monterey:**
 
-[![MacOS Monterey](https://i.imgur.com/G3qQ9T2.png)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
+[![MacOS Monterey](https://i.imgur.com/baLsWyY.png)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
 
 **Status:** 👨🏾‍🏭 In development (test with [Release EFI](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/releases) )💻
 
