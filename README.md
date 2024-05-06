@@ -28,7 +28,7 @@ Hardware | Model
 ![wlan](https://i.imgur.com/9eDLwo9.png) | Ralink RL3000 (Supported until MacOS High Sierra)
 Ethernet | Realtek RTL8111G
 ![ddr3](https://i.imgur.com/5MAnSyf.png) | Corsair Vengeance/Kingston HyperX 12GB(4+8x2) DDR3L@1600Mhz
-![ssd](https://i.imgur.com/pozDx4X.png) | Kingston A400 SSD 960GB (QLC SMI5922XT Controller)
+![ssd](https://i.imgur.com/pozDx4X.png) | Kingston A400 SSD 960GB (QLC SM2259XT Controller)
 ---
 
 
