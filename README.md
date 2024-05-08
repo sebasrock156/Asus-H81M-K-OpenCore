@@ -1,4 +1,4 @@
-![OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
+[OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 # Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
 
 Hardware | Model
