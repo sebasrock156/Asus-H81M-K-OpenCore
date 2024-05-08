@@ -1,3 +1,4 @@
+![OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 # Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
 
 Hardware | Model
@@ -33,6 +34,40 @@ Ethernet | Realtek RTL8111G
 - PCI Express Ports ✅
 
 - Sleep Mode ✅
+
+ 
+</details>
+
+
+### IMPORTANT NOTES:
+---
+<details>
+
+---
+## For use Intel Graphics only:
+
+1. Remove the boot-arg: "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+
+2. Remove the tables "**PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties*
+
+---
+
+## For use Nvidia Graphics only:
+1. Enable the boot-arg: "**igfxvesa**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+
+2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* (Eg: Nvidia GeForce GTX 1070Ti and Nvidia HDMI Output)
+
+3. Download and install [OpenCore Legacy Patcher] for try patch your GPU (Pascal *GTX1000* and older generations *GTX900, 700, 600* are supported; **ALL RTX MODELS AREN'T SUPPORTED**)
+
+---
+
+## What audio codec I can use?:
+
+With boot-arg "**alcid=**":
+
+- If you have the Realtek ALC887 like me, you can use these layouts: *1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99*
+
+- If you have the Realtek ALC897, you can use these layouts: *11, 12, 13, 21, 23, 66, 69, 77, 98, 99*
 
  
 </details>
