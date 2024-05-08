@@ -53,7 +53,7 @@ Ethernet | Realtek RTL8111G
 ---
 
 ## For use Nvidia Graphics only:
-1. Enable the boot-arg: "**igfxvesa**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+1. Add the boot-arg: "**igfxvesa**" and remove "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 
 2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* (Eg: Nvidia GeForce GTX 1070Ti and Nvidia HDMI Output)
 
