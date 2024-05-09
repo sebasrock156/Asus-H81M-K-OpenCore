@@ -1,7 +1,3 @@
-[D-Link Utility]: (https://github.com/chris1111/D-LinkUtility-Package)
-[Wireless USB Adapters]: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
-[AirportItlwm]: (https://github.com/OpenIntelWireless/itlwm)
-[here]: (https://openintelwireless.github.io/itlwm/Compat.html)
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
 # Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
@@ -78,9 +74,10 @@ With boot-arg "**alcid=**":
 
 ## Do you want Wi-Fi on your PC?:
 
-- If is a TP-Link, Edimax, Ralink or Mediatek wireless adapter, use the [D-Link Utility] or [Wireless USB Adapters] (*see the supported devices*)
+- If is a TP-Link, Edimax, Ralink or Mediatek wireless adapter, use the D-Link Utility (https://github.com/chris1111/D-LinkUtility-Package) or Wireless USB Adapters: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) (*see the supported devices*)
 
-- If is some Asus, TP-Link or Intel PCI wireless adapter, use the [AirportItlwm] (*see the supported devices [here]*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
+- If is some Asus, TP-Link or Intel PCI wireless adapter, use the AirportItlwm (https://github.com/OpenIntelWireless/itlwm)
+[here]: () (*see the supported devices on https://openintelwireless.github.io/itlwm/Compat.html*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
 
 ---
  
