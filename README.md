@@ -24,7 +24,7 @@ Ethernet | Realtek RTL8111G
 ---
 <details>
 
-- Installer Boot ✅ (Installation on SSD: ~45/50 minutes)
+- Installer Boot ✅ (Installation on SSD: ~30/35 minutes)
 
 - System Boot ✅
 
