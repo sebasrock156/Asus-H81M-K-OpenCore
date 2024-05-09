@@ -47,18 +47,38 @@ Ethernet | Realtek RTL8111G
 ---
 ## For use Intel Graphics only:
 
-1. Remove the boot-arg: "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); if you have some incompatible GPU, use the boot-arg "**nv_disable=1**" (for disabling Nvidia) or "**-radvesa**"/"**-amd_no_dgpu_accel**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 
 2. Remove the tables "**PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties*
 
 ---
 
+---
+## For use AMD Graphics only:
+
+1. Add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU) and use or add:
+
+- "**radpg=15**" for enabling 3D Acceleration (In almost all 2017 or older GPUs, Eg: RX 580, RX 470, R9 Fury X, HD 7730, etc).
+
+- "**agdpmod=pikera**" for try enabling drivers (In almost all 2018 or newer GPUs, Eg: Vega 56, Radeon VII, RX 5700XT, RX 6600, etc).
+From *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+
+2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* with your graphic card data (Eg: AMD Radeon RX 5700XT and Bermuda HDMI Audio [Navi Series])
+
+---
+
 ## For use Nvidia Graphics only:
-1. Add the boot-arg: "**-igfxvesa**" and remove "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU), also, add "**nv_disable=1**" (for using Vesa drivers); later, create a new table like this (for enabling Nvidia Drivers):
+
+![nvidiatable](https://i.imgur.com/1crQGj1.png)
+
+**Usually for Pascal (GTX1000 Series), Maxwell (GTX900 Series) and Kepler (GTX600/700 Series) GPUs.***
+
+all on *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*; if Nvidia GPU isn't recognize after that, add "**agdpmod=pikera**" boot-arg too.
 
 2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* (Eg: Nvidia GeForce GTX 1070Ti and Nvidia HDMI Output)
 
-3. Download and install [OpenCore Legacy Patcher] for try patch your GPU (Pascal *GTX1000* and older generations *GTX900, 700, 600* are supported; **ALL RTX MODELS AREN'T SUPPORTED**)
+3. Download and install [OpenCore Legacy Patcher] for try patch your GPU (Pascal *GTX1000* and older generations *GTX900, 700, 600* are supported; **ALL RTX MODELS AREN'T SUPPORTED**), later, go to *config.plist --> NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82* and remove "**nv_disable=1**" and reboot.
 
 ---
 
