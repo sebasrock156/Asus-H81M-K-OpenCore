@@ -10,7 +10,7 @@ I'm bringing another OpenCore EFI, now for this 2014 motherboard, for more infor
 
 [![MacOS Monterey](https://i.imgur.com/xcZ2v8a.png)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
 
-**Status:** Finished ✅ (test with [Release EFI](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/releases) )💻
+**Status:** Finished ✅ (test with [Release EFI](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/releases) )🖥
 
 
 ---
