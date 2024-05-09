@@ -1,10 +1,10 @@
-# Asus H81M-K OpenCore
+# Asus H81M-K OpenCore (Almost any MacOS X versions)
 [![BigSur](https://img.shields.io/badge/BigSurHackintosh-in_development-orange.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/BigSur)
 [![Monterey](https://img.shields.io/badge/MontereyHackintosh-available_here-violet.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
 [![Ventura](https://img.shields.io/badge/VenturaHackintosh-in_development-orange.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Ventura)
 [![Sonoma](https://img.shields.io/badge/SonomaHackintosh-early_development-red.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Sonoma)
 
-This is a "big" project to bring MacOS OSes for this Motherboard with OpenCore Bootloader, for more information, click on "More info of **MacOS Version** below:
+I'm bringing another OpenCore EFI, now for this 2014 motherboard, for more information, click on "More info of **MacOS Version** below:
 
 **More info of MacOS Monterey:**
 
