@@ -1,7 +1,7 @@
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 [D-Link Utility]: (https://github.com/chris1111/D-LinkUtility-Package)
-[Wireless USB Adapters]: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
-[AirportItlwm]: (https://github.com/OpenIntelWireless/itlwm)
+#[Wireless USB Adapters]: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+#[AirportItlwm]: (https://github.com/OpenIntelWireless/itlwm)
 [here]: (https://openintelwireless.github.io/itlwm/Compat.html)
 # Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
 
