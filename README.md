@@ -11,9 +11,8 @@ This is a "big" project to bring MacOS OSes for this Motherboard with OpenCore B
 
 [![MacOS Monterey](https://i.imgur.com/xcZ2v8a.png)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
 
-**Status:** 👨🏾‍🏭 In development (test with [Release EFI](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/releases) )💻
+**Status:** Finished ✅ (test with [Release EFI](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/releases) )💻
 
-**To do:** Fix iGPU detection by OCLP, fix OC Menu controller.
 
 ---
 
@@ -31,27 +30,4 @@ Ethernet | Realtek RTL8111G
 ![ssd](https://i.imgur.com/pozDx4X.png) | Kingston A400 SSD 960GB (QLC SM2259XT Controller)
 ---
 
-
-### Works:
----
-<details>
-
-- Opencore 0.9.2 ✅ 
-
-- Installer Boot ✅ (Installation on SSD: ~25/30 minutes)
-
-- System Boot ✅
-
-- USB Ports ✅
-
-- VoodooPS2Controller/Keyboard ✅
-
-- Screen ✅ (1336x768, 1080x1920)
-
-- Audio Card ✅
-
-- Wi-Fi ✅
-
- 
-</details>
 
