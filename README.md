@@ -3,7 +3,7 @@
 # Asus H81M-K OpenCore (MacOS BigSur 11.x.x)
 
 
-![Screenshot](https://i.imgur.com/6eFolAP.png)
+![Screenshot](coming soon)
 
 
 Hardware | Model
