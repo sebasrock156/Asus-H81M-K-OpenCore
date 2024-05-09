@@ -1,4 +1,8 @@
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
+[D-Link Utility]: (https://github.com/chris1111/D-LinkUtility-Package)
+[Wireless USB Adapters]: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+[AirportItlwm]: (https://github.com/OpenIntelWireless/itlwm)
+[here]: (https://openintelwireless.github.io/itlwm/Compat.html)
 # Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
 
 Hardware | Model
@@ -53,7 +57,7 @@ Ethernet | Realtek RTL8111G
 ---
 
 ## For use Nvidia Graphics only:
-1. Add the boot-arg: "**igfxvesa**" and remove "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+1. Add the boot-arg: "**-igfxvesa**" and remove "**radpg=15**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 
 2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* (Eg: Nvidia GeForce GTX 1070Ti and Nvidia HDMI Output)
 
@@ -68,6 +72,13 @@ With boot-arg "**alcid=**":
 - If you have the Realtek ALC887 like me, you can use these layouts: *1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99*
 
 - If you have the Realtek ALC897, you can use these layouts: *11, 12, 13, 21, 23, 66, 69, 77, 98, 99*
+
+## Do you want Wi-Fi on your PC?:
+
+- If is a TP-Link, Edimax, Ralink or Mediatek wireless adapter, use the [D-Link Utility] or [Wireless USB Adapters] (*see the supported devices*)
+
+- If is some Asus, TP-Link or Intel PCI wireless adapter, use the [AirportItlwm] (*see the supported devices [here]*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
+
 
  
 </details>
