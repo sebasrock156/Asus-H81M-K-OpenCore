@@ -1,6 +1,6 @@
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
-# Asus H81M-K OpenCore (MacOS Sonoma 14.x)
+# Asus H81M-K OpenCore (MacOS Ventura 13.4.5+ and Sonoma 14.x)
 
 
 ![Screenshot](coming soon)
@@ -95,6 +95,8 @@ With boot-arg "**alcid=**":
 - If you have the Realtek ALC887 like me, you can use these layouts: *1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99*
 
 - If you have the Realtek ALC897, you can use these layouts: *11, 12, 13, 21, 23, 66, 69, 77, 98, 99*
+
+- If MacOS doesn't detect the audio input/output, verify if "**-lilubetaall**" and "**alcbeta**" are enabled
 
 --- 
 
