@@ -1,6 +1,6 @@
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
-# Asus H81M-K OpenCore (MacOS Ventura 13.4.5+ and Sonoma 14.x)
+# Asus H81M-K OpenCore (MacOS Ventura 13.5.X+ and Sonoma 14.x)
 
 
 ![Screenshot](https://i.imgur.com/aNV5B0u.png)
