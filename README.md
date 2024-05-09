@@ -42,9 +42,7 @@ Ethernet | Realtek RTL8111G
 
 ### IMPORTANT NOTES:
 ---
-<details>
 
----
 ## For use Intel Graphics only:
 
 1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); if you have some incompatible GPU, use the boot-arg "**nv_disable=1**" (for disabling Nvidia) or "**-radvesa**"/"**-amd_no_dgpu_accel**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
@@ -53,7 +51,6 @@ Ethernet | Realtek RTL8111G
 
 ---
 
----
 ## For use AMD Graphics only:
 
 1. Add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU) and use or add:
@@ -68,6 +65,7 @@ From *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 ---
 
 ## For use Nvidia Graphics only:
+
 1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU), also, add "**nv_disable=1**" (for using Vesa drivers); later, create a new table like this (for enabling Nvidia Drivers):
 
 ![nvidiatable](https://i.imgur.com/1crQGj1.png)
@@ -99,6 +97,11 @@ With boot-arg "**alcid=**":
 - If is some Asus, TP-Link or Intel PCI wireless adapter, use the AirportItlwm (https://github.com/OpenIntelWireless/itlwm) (*see the supported devices on https://openintelwireless.github.io/itlwm/Compat.html*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
 
 ---
- 
-</details>
+
+## Do you only have your Android Phone/Device on hand?:
+
+ 1. Download HoRNDIS (https://github.com/jwise/HoRNDIS) and put it on your Hackintosh installation.
+
+ 2. Connect your device via USB and enable USB Tethering.
+
 
