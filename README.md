@@ -1,9 +1,9 @@
 [OpenCore Legacy Patcher]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
-# Asus H81M-K OpenCore (MacOS Monterey 12.x.x)
+# Asus H81M-K OpenCore (MacOS Sonoma 14.x)
 
 
-![Screenshot](https://i.imgur.com/6eFolAP.png)
+![Screenshot](coming soon)
 
 
 Hardware | Model
@@ -49,15 +49,17 @@ Ethernet | Realtek RTL8111G
 
 ## For use Intel Graphics only:
 
-1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); if you have some incompatible GPU, use the boot-arg "**nv_disable=1**" (for disabling Nvidia) or "**-radvesa**"/"**-amd_no_dgpu_accel**" from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
+1. Remove the boot-arg: "**radpg=15**" (because it's for AMD), and add "**-igfxvesa**" (for disabling iGPU temporally); if you have some incompatible GPU, use the boot-arg "**nv_disable=1**" (for disabling Nvidia GPU) or "**-radvesa**"/"**-amd_no_dgpu_accel**" (for disabling AMD GPU) from *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 
 2. Remove the tables "**PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties*
+
+3. Download and install [OpenCore Legacy Patcher] for try patch your iGPU (HD 4400, 4600 or 5200), later, go to *config.plist --> NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82* and remove "**-igfxvesa**" and reboot.
 
 ---
 
 ## For use AMD Graphics only:
 
-1. Add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU) and use or add:
+1. Add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU), and "**-radvesa**"/"**-amd_no_dgpu_accel**" (for disabling AMD GPU temporally), later use or add:
 
 - "**radpg=15**" for enabling 3D Acceleration (In almost all 2017 or older GPUs, Eg: RX 580, RX 470, R9 Fury X, HD 7730, etc).
 
@@ -66,11 +68,13 @@ From *NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82*
 
 2. Rename the "**model** key" by yours in **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)** and **PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)**" from *DeviceProperties* with your graphic card data (Eg: AMD Radeon RX 5700XT and Bermuda HDMI Audio [Navi Series])
 
+3. Download and install [OpenCore Legacy Patcher] for try patch your GPU (Some Navi (as RX 6000 Series), Vega Series, RX 400/500 Series, R5/R7/R9 200/300 Series and almost all HD 8000/7000 Series GPUs), later, go to *config.plist --> NVRAM --> 7C436110-AB2A-4BBB-A880-FE41995C9F82* and remove "**-radvesa**"/"**-amd_no_dgpu_accel**" and reboot.
+
 ---
 
 ## For use Nvidia Graphics only:
 
-1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU), also, add "**nv_disable=1**" (for using Vesa drivers); later, create a new table like this (for enabling Nvidia Drivers):
+1. Remove the boot-arg: "**radpg=15**" (because it's for AMD); add the boot-arg: "**-igfxvesa**" (for disabling Intel iGPU), also, add "**nv_disable=1**" (for disabling Nvidia GPU temporally); later, create a new table like this (for enabling Nvidia Drivers):
 
 ![nvidiatable](https://i.imgur.com/1crQGj1.png)
 
