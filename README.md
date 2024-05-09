@@ -3,7 +3,7 @@
 # Asus H81M-K OpenCore (MacOS Ventura 13.0 - 13.4.4)
 
 
-![Screenshot](https://i.imgur.com/mwAwmmG.png)
+![Screenshot](https://i.imgur.com/d3kosJi.png)
 
 (*screenshot for illustrative ends only, it isn't the final result*)
 
