@@ -3,8 +3,9 @@
 # Asus H81M-K OpenCore (MacOS Ventura 13.4.5+ and Sonoma 14.x)
 
 
-![Screenshot](coming soon)
+![Screenshot](https://i.imgur.com/aNV5B0u.png)
 
+(Screenshot is for illustrative ends only)
 
 Hardware | Model
 --- |:--:
