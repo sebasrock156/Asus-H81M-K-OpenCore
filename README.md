@@ -73,13 +73,15 @@ With boot-arg "**alcid=**":
 
 - If you have the Realtek ALC897, you can use these layouts: *11, 12, 13, 21, 23, 66, 69, 77, 98, 99*
 
+--- 
+
 ## Do you want Wi-Fi on your PC?:
 
 - If is a TP-Link, Edimax, Ralink or Mediatek wireless adapter, use the [D-Link Utility] or [Wireless USB Adapters] (*see the supported devices*)
 
 - If is some Asus, TP-Link or Intel PCI wireless adapter, use the [AirportItlwm] (*see the supported devices [here]*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
 
-
+---
  
 </details>
 
