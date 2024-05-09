@@ -1,4 +1,4 @@
-# Asus H81M-K OpenCore (Almost any MacOS X versions)
+# Asus H81M-K OpenCore (BigSur - Sonoma)
 [![BigSur](https://img.shields.io/badge/BigSurHackintosh-in_development-orange.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/BigSur)
 [![Monterey](https://img.shields.io/badge/MontereyHackintosh-available_here-violet.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Monterey)
 [![Ventura](https://img.shields.io/badge/VenturaHackintosh-in_development-orange.svg)](https://github.com/sebasrock156/Asus-H81M-K-OpenCore/tree/Ventura)
