@@ -76,8 +76,7 @@ With boot-arg "**alcid=**":
 
 - If is a TP-Link, Edimax, Ralink or Mediatek wireless adapter, use the D-Link Utility (https://github.com/chris1111/D-LinkUtility-Package) or Wireless USB Adapters: (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) (*see the supported devices*)
 
-- If is some Asus, TP-Link or Intel PCI wireless adapter, use the AirportItlwm (https://github.com/OpenIntelWireless/itlwm)
-[here]: () (*see the supported devices on https://openintelwireless.github.io/itlwm/Compat.html*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
+- If is some Asus, TP-Link or Intel PCI wireless adapter, use the AirportItlwm (https://github.com/OpenIntelWireless/itlwm) (*see the supported devices on https://openintelwireless.github.io/itlwm/Compat.html*); for Asus and TP-Link adapters, check if the used Wi-Fi card is made by Intel.
 
 ---
  
